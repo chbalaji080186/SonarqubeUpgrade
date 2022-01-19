@@ -1,4 +1,4 @@
-# SonarqubeUpgrade from 7.2 to 7.9.6
+# Sonarqube Upgrade from 7.2 to 7.9.6
 
 #Sonarqube requirements
     Server with minimum 2GB/1 vcpu capacity
