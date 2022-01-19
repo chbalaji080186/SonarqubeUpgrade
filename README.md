@@ -27,7 +27,7 @@
 # Package preparation 
 
 1. Download the 7.9.6 from sonarqube site 
-   https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.6.zip
+        https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.6.zip
    
 2.  Download and unzip the SonarQube distribution of your edition in a fresh directory, let's say $NEW_SONAR_HOME and stop the sonarqube
 
@@ -36,14 +36,11 @@
 4.Update the contents of sonar.properties and wrapper.conf files (in $NEW_SONAR_HOME/conf) with the settings of the related files in the $OLD_SONAR_HOME/conf directory (web    
   server URL, database, ldap settings, etc.). Do not copy-paste the old files. No need to update anything for PostgreSQL 
 
-
 5.Start your new SonarQube Server
 
 6.Browse to http://yourSonarQubeServerURL/setup and follow the setup instructions. It will make you to upgrade the postgress DB ad start the sonarqube
 
 7. Most of plugins  will come with sonarqube installation. If you wnat to install then you can install it from marketplace. Some plugins (jar files)we have to place it on $NEW_SONAR_HOME/extensions/plugin and restart the  sonar qube service
-
-
 
 
 
