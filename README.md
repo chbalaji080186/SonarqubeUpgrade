@@ -46,7 +46,6 @@
 
 
 
-
 Reference Links
 https://devopscube.com/setup-and-configure-sonarqube-on-linux/
 https://docs.sonarqube.org/latest/setup/before-you-upgrade/
